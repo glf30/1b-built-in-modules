@@ -153,12 +153,12 @@ This is how you include the Path module:
 const path = require("path"); // Path module
 ```
 
-Included in these files is a **path-folder**. Let's gather the relative file path for the file in that folder:
+Now let's create a **path-folder** and place a text file inside.
 
-12. Gather the relative file path of test.js
+12. Gather the relative file path of test.txt
 
 ```js
-const filePath = path.join("path-folder", "test.js"); // => path-folder/test.js
+const filePath = path.join("path-folder", "test.txt"); // => path-folder/test.js
 console.log(`File path to test.js file: ${filePath}`);
 ```
 
